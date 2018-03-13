@@ -1,14 +1,24 @@
 # Problem 8
 #
-#
-# Write a function that removes duplicates from an unsorted
-# linked list.   Your solution should use your own
-# linked list implementation.
+# A) Provide an example of operator overloading implemented in one of Python's
+# built-in data types.
 
-# Show an example of you function in action using the
-# following list:
+
+
+# B) Construct a class to implement the abstract data type `Circle`.  The
+# `Circle` class should have an attributes named `radius`, `circumference` and
+# `area`.  To create an instance of `Circle` write a custom initialization
+# function that takes the radius as an argument.  All of the objects attributes
+# should be assigned values in the initialization function.
 #
-#   10, 12, 11, 11, 12, 11, 10
+# Overload the greater-than and less-than comparision operators to allow
+# comparison between `Circle` objects based on their radius.  A `Circle` object
+# with a larger radius should be evaluated as greater.  Override the `__str__`
+# method to print information about the circle in the following format:
 #
-# After processing, the resulting list should become:
-#   10, 12, 11
+#        Cirlce: radius X, circumference Y, area Z
+
+
+
+# C) Provide a code snippet that creates `Circle` objects that shows
+# the comparison operators in use.
