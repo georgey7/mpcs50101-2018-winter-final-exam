@@ -1,23 +1,27 @@
-# Problem 3. Answer the following questions.
-
-
-# A. What is the time complexity of bubble sort, selection sort, and insertion
-# sort?
-
-
-# B. Suppose you have the following list of numbers to sort:
-# [19, 1, 9, 7, 3, 10, 13, 15, 8, 12]
-#
-# Write out the list that represents the partially sorted list after three
-# complete passes of "bubble sort"?
+# Problem 4
 #
 #
-# For reference, the pseudocode for an implementation of the buble_sort
-# algorithm is shown below.   You do not need to complete the implementation.
+# A. Construct a program that prompts a user for word and determines if that
+# word is a valid play in a Scrabble match.  Implement a linear search algorithm
+# to detect if the word is valid by comparing it to the [list of allowed Scrabble words](scrabble_list.txt).
 #
-# def bubble_sort(items):
-#     """ Implementation of bubble sort """
-#     for i in range(len(items)):
-#         for j in range(len(items)-1-i):
-#             if items[j] > items[j+1]:
-#                 # Swap the items
+# Time your function and return it as part of the results.
+#
+# The program flow should be similar to this:
+# % python problem3.py
+# What is the word? qi
+#
+# Valid! (Found in 0.2 seconds)
+
+
+
+
+# B. Faced with this large unsorted list, would it be more efficient to sort the
+# list first and then perform a binary search, or to just use a linear search?
+# Explain your answer in terms of algorithm complexity.
+
+
+
+# C. Since our list of Scrabble words will not change very much over time, it
+# may be possible to consider the size as constant.  If this is the case, how
+# would this change your answer in B.

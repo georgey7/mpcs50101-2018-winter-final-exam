@@ -1,24 +1,23 @@
-# Problem 5
+# Problem 4
 #
-# A) Provide an example of operator overloading implemented in one of Python's
-# built-in data types.
-
-
-
-# B) Construct a class to implement the abstract data type `Circle`.  The
-# `Circle` class should have an attributes named `radius`, `circumference` and
-# `area`.  To create an instance of `Circle` write a custom initialization
-# function that takes the radius as an argument.  All of the objects attributes
-# should be assigned values in the initialization function.
+# Write a function that takes an unsorted list of integers called `number_list`
+# and an integer called `target_sum` as  arguments and return a boolean value
+# indicating whether there are two distinct items in `number_list` that sum
+# to `target_sum`.
 #
-# Overload the greater-than and less-than comparision operators to allow
-# comparison between `Circle` objects based on their radius.  A `Circle` object
-# with a larger radius should be evaluated as greater.  Override the `__str__`
-# method to print information about the circle in the following format:
-#
-#        Cirlce: radius X, circumference Y, area Z
+
+# Full credit will be awarded for solving in O(n) time, half-credit for
+# O(n * logn) time, one-third credit for O(n^2) time.
+
+def thats_sum_function(number_list, target_sum):
+    # Your code here
 
 
 
-# C) Provide a code snippet that creates `Circle` objects that shows
-# the comparison operators in use.
+# Provide code snippets that show your function in use for both a true and false
+# case similar to the following:
+
+print thats_sum_function([1,2,3,4], 6) # True
+print thats_sum_function([70,20,30,80], 100) # True
+print thats_sum_function([1,3,3,4], 6) # False
+print thats_sum_function([1,2,3,4], 10) # False
