@@ -1,4 +1,4 @@
-# Problem 4
+# Problem 6
 #
 #
 # A. Construct a program that prompts a user for word and determines if that
